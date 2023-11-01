@@ -1,0 +1,45 @@
+* {
+
+    margin: 0px;
+
+}
+
+
+div.hRight{
+    float: right;
+    padding-right: 10px;
+}
+
+div#hBorder{
+    background-color: aquamarine;
+    padding: 10px;
+    word-spacing: 6px;
+    font-size: 20px;
+    border-style: solid;
+    border-bottom-style: double;
+}
+
+div#hBorder ul li{
+
+    text-decoration: none;
+    border-right: solid 1px #333;
+    display: inline;
+    padding-right: 10px;
+    font-weight: bolder;
+    border-bottom-width: 10px;
+}
+div#hBorder ul li.abc{
+    float: right;
+    display: inline;
+}
+div#hBorder ul li a:hover {
+    color: red;
+    text-decoration-line: underline;
+}
+div#hBorder ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+
+
